@@ -5,8 +5,8 @@ layout: default
 
 # COMP110 Data Analysis: Student Insights
 
-<!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+<img src="/ex09/static/imgs/logo.png" alt="Comp110 rainbow logo" width="500">
+
 
 Welcome! I'm Sanjala Vasudev. As an undergraduate at UNC Chapel Hill pursuing a Bachelors of Science in Neuroscience, I am passionate about using computational tools to uncover meaningful patterns in human behavior. 
 
