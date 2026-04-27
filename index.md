@@ -2,11 +2,9 @@
 # Do not edit the text between these lines!
 layout: default
 ---
+test
 
 # COMP110 Data Analysis: Student Insights
-
-<img src="/ex09/static/imgs/logo.png" alt="Comp110 rainbow logo" width="500">
-
 
 Welcome! I'm Sanjala Vasudev. As an undergraduate at UNC Chapel Hill pursuing a Bachelors of Science in Neuroscience, I am passionate about using computational tools to uncover meaningful patterns in human behavior. 
 
