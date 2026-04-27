@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Data Science Portfolio
+title: COMP110 Data Analysis: Student Insights
 email: sanjalav@unc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Sanjala Vasudev | UNC Chapl Hill '29
