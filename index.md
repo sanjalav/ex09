@@ -64,4 +64,10 @@ I recommend that the course try to include at least one interdisciplinary exampl
 Future Work
 Ultimately, with the large number of non-CS majors taking this course, a "select your coding exercise" model, where students choose a "theme" for the same logic, would make the course much more engaging and practical.
 
+<img src="/ex09/static/imgs/major_dist.png" alt="Distribution of Majors" width="600"/>
+
+<img src="/ex09/static/imgs/interest_comparison.png" alt="Box Plot Comparison" width="500">
+
+<img src="/ex09/static/imgs/interest_density.png" alt="Interest Histogram" width="500">
+
 
