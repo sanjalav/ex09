@@ -25,7 +25,7 @@ To perform my analysis, I developed several key functions to transform "raw" CSV
 ### 1. Data Selection and Transformation
 The 'select' and 'columnar' functions allow me to isolate specific variables-like a student's major and their class year-from a massive dataset.
 
-'''python
+```python
 def select(table: dict[str, list[str]], names: list[str]) -> dict[str, list[str]]:
     """Isolates a specific subset of columns for focused analysis."""
     result: dict[str, list[str]] = {}
@@ -44,7 +44,7 @@ def count(valyes: list[str]) -> dict[str, int]"
         else:
             result[item] = 1
     return result
-
+```
 
 
 Using these tools, I explored how different academic backgrounds impact the student experience in introductory computer science.
