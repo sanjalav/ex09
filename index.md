@@ -3,26 +3,16 @@
 layout: default
 ---
 
-# This is a big header
+# COMP110 Data Analysis: Student Insights
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
 <img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
 
-## This is a small header
-
-This is basic paragraph text.
-
-#Comp110 Data Analysis: Student Insights
-
 Welcome! I'm Sanjala Vasudev. As an undergraduate at UNC Chapel Hill pursuing a Bachelors of Science in Neuroscience, I am passionate about using computational tools to uncover meaningful patterns in human behavior. 
 
-This project showcases a custom data utility library I built to process and analzye campus survey data.
-
-#Technical Implementation: 'data_utils.py'
+## Technical Implementation: 'data_utils.py'
 
 To perform my analysis, I developed several key functions to transform "raw" CSV data into a format that Python can easily manipulate.
-
-#test
 
 ### 1. Data Selection and Transformation
 The 'select' and 'columnar' functions allow me to isolate specific variables-like a student's major and their class year-from a massive dataset.
@@ -49,7 +39,29 @@ def count(valyes: list[str]) -> dict[str, int]"
 ```
 
 
-Using these tools, I explored how different academic backgrounds impact the student experience in introductory computer science.
+## Analysis: The Case for Interdisciplinary Examples
 
-Reflecting on my experience, I believe the course could create even more value by incorporating industry-specific problem sets. This would help students see how Python can be a useful tool for automating data anlaysis in their specific professional domains.
+My analysis explored whether COMP110 should provide more examples from diverse fields to support student learning. Based on survey_izzi dataset, the data strongly supports this modification.
+
+Major Distribution
+Using the count utility, I visualized the academic backgrounds of students. The distribution shows a large variety of majors, including Biology, Economics, Psychology, and Media/Journalism.
+
+CS vs Non-CS Interest in Connections
+I compared interest levels in seeing connections between CS and other fields. While CS majors have high interest, Non-CS majors also reported significantly high scores (ratings 4-7).
+
+Interest Density across All Students
+The histogram below highlights that both groups value the integration of computer sicence with other professional domains. 
+
+
+## Conclusion and Reflections
+The analysis shows a high level of interest in the connections between computer science and other fields across all students.
+
+Implementation and Trade-offs
+I recommend that the course try to include at least one interdisciplinary example into each major module. While this would increase engagement, there are trade-offs:
+    Cost: Creating these examples requires significant time and effort from instructors and TAs.
+    Complexity: Diverse examples could potentially confuse students if the core programming logic is not kept consistent. 
+
+Future Work
+Ultimately, with the large number of non-CS majors taking this course, a "select your coding exercise" model, where students choose a "theme" for the same logic, would make the course much more engaging and practical.
+
 
